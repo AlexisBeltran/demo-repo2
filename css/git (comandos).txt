@@ -1,0 +1,72 @@
+git nos permite tener control de cambios, facilita el trabajo en equipos
+sistema de control de versiones
+
+comandos
+
+git --version
+
+
+*Primer repositorio y commit
+Proyecto = Repositorio 
+
+git config --global user.name "Alexis Beltran"
+git config --global user.email "jesus_beltran011@outloook.com"
+git config --global -l
+
+"Para entrar a directorio de carperta"
+cd git/folder\ 1/
+
+ git init "Indicar primer repositorio o cambio","Archivos ocultos"
+ 
+ git status  
+ 
+ git add .
+ 
+ git status
+ 
+"Para confirmar"
+ git commit -m "Mensaje descriptivo"
+
+ "si se modifica archivo y quieres saber donde esta el error"
+ git diff
+
+ "modificar a como estaba antes"
+ git checkout
+
+ git add . "Para modificar y/o guardar nuestro archivo"
+ git commit -m "Se modifico el titulo
+
+ "Para ver lista de cambio"
+ git log 
+
+----------------------------------------------------
+strage y logs
+gitt add index.html
+gitt commit -m "Se modifico"
+gitt status
+
+"adicionar"
+git ad js/
+git commit -m "Se agrego validacion"
+
+"confirmar cambio de lo que estamos inicando con /directorio *. y extencion" 
+git add css/*.css
+git add status
+git commit .m "Otra modificación "
+git log 
+
+"Pra quitar elemento en particular"
+git reset css/*.scss
+
+"Para agregar todos los elementos nuevamente"
+git add -A
+git add --all
+
+"confirmar"
+git commit -m "----------"
+git log
+
+"En caso de que se olvide algun comando"
+git help
+------------------------------------------------------
+git Alias
